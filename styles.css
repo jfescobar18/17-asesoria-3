@@ -25,3 +25,57 @@ span {
 main {
     font-family: "Montserrat", sans-serif;
 }
+
+header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    /* width: 100%; */
+}
+
+article {
+    text-align: center;
+    width: 320px;
+}
+
+/* article:first-child {
+     width: 100%;
+} */
+
+.card-header {
+    background-color: hotpink;
+    color: white;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 28px;
+}
+
+article:first-child .card-header {
+    background-color: palevioletred;
+}
+
+article:last-child .card-header {
+    background-color: skyblue;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.button {
+    background-color: mediumpurple;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
