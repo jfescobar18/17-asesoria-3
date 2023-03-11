@@ -1,0 +1,27 @@
+span {
+    color: green;
+    font-size: 26px;
+}
+
+/*------------------------------*/
+
+/*Selector de id*/
+#text1 {
+    color: black;
+}
+
+/*Selector de clase*/
+.texto-con-estilos {
+    color: orange;
+    font-size: 30px;
+}
+
+.texto-con-estilos {
+    color: rebeccapurple;
+}
+
+/*------------------------------*/
+
+main {
+    font-family: "Montserrat", sans-serif;
+}
